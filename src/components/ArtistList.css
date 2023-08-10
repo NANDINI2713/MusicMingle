@@ -1,0 +1,97 @@
+.songContainer{
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    bottom: 10px;
+}
+
+.songContainer .songs{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+}
+
+.songs:hover, .songs.active{
+    color: black;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+
+
+
+
+.song .image{
+    width: 200px;
+    height: 200px;
+    min-width: 45px;
+    border-radius: 0.5px;
+    background-color: #264653;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.song .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.song .section .singerName{
+    font-size: 20px;
+}
+
+.searchSongBox{
+    width: 25%;
+    height: 45px;
+    position: relative;
+    left: 825px;
+    margin-top: -20px;
+    color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    top: -20px;
+}
+
+.searchSongBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: black;
+    opacity: 0.8;
+    padding-left: 45px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.searchSongBox .searchIcon {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color:rgb(255, 255, 255);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.titleSong{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: -50px;
+}
+
+.titleSong span{
+    color: white;
+    font-size: 12px;
+}

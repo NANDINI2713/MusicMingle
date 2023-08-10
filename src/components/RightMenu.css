@@ -1,0 +1,75 @@
+.rightContainer {
+    height: 100vh;
+    width: 100px;
+    z-index: 1;
+    background: #264653;
+    opacity: 0.8;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: sticky;
+  }
+
+  .rightContainer .profile{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  }
+
+  .rightContainer .profile .dropdown .user{
+    color: white;
+  }
+
+  .rightContainer .profile .dropdown .nav-link dropdown-toggle{
+    color: white;
+  }
+
+  ::after, ::before {
+    box-sizing: border-box;
+    color: white;
+
+  }
+
+  .rightContainer .profile .user:hover{
+    color: #F4A261;
+  }
+
+  .profile .darkMode{
+    margin: 40px 0;
+    position: relative;
+    top: 50px;
+    left: 4px;
+  }
+
+  .profile .logout{
+    position: relative;
+    top: -100px;
+    left: 5px;
+    cursor: pointer;
+  }
+
+  .profile .logout:hover{
+    color: #F4A261;
+  }
+
+  .dropdown{
+    list-style: none;
+    color: white;
+  }
+
+  
+  @media screen and (max-width: 550px) {
+    .rightContainer .profile{
+      position: relative;
+      padding-right: 1160px;
+      padding-top: 600px;
+    }
+  }

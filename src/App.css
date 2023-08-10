@@ -1,38 +1,65 @@
-.App {
+
+body{
+  overflow: hidden;
+}
+
+
+.connect button:hover{
+  background-color: #eaabe8;
+  opacity: 1px;
+
+}
+
+.centered{
+  position: absolute;
+            top: 100px;
+            left: 50px;
+            color: aliceblue;
+            font-family: 'Playfair Display', serif;
+             font-size: 100px;
+             font-weight: 700;
+
+
+
+}
+
+.connect button{
+  position: absolute;
+  top: 50%;
+  left: 30%;
   text-align: center;
+  background-color: white;
+  border-radius: 99px;
+  color: #0e2655;
+  font-size: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  font-style:inherit;
+  padding: 5px 24px;
+  width: 700px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.connect img{
+  width: 100%;
+  height: 100%;
+    opacity: 1;
+    filter: blur(5px);
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 550px){
+  
+  .connect img{
+    width: 384%;
+    height: 100%;
+      opacity: 1;
+      background-size: cover;
+      position: relative;
+      right: 500px;
+      
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  body{
+    overflow: hidden;
   }
 }

@@ -1,0 +1,97 @@
+
+
+.login{
+  background-image: url('./login_new.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: relative;
+    top: 150px;
+    left: 400px;
+  }
+
+  .login-container:hover{
+    background-color: rgb(186, 182, 226);
+  }
+  
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 25px;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  button {
+    width: 100%;
+    position: relative;
+    left: 9px;
+    font-size: large;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #203cf4;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  p{
+    text-align: center;
+  }
+
+  .sign-up-link{
+    cursor: pointer;
+    font-size: large;
+    text-decoration: underline;
+    color: #010101;
+  }
+
+  .sign-up-link:hover{
+    color:#5011e2;
+  }
+
+  .email{
+    position: relative;
+    left: 9px;
+    font-size: larger;
+  }
+
+  .password{
+    position: relative;
+    font-size: larger;
+    left: 9px;
+  }
