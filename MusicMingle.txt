@@ -1,0 +1,55 @@
+===> Features of MusicMingle <===
+
+1. Main Page - User can connect to website by pressing connect to MusicMingle button
+
+
+2. Login Page - If users have already registered then they can login by entering their email and password,
+                Otherwise then can register themselves by clicking Sign-up button.
+                
+
+3. Register Page - It users do not have account then they can register themselves by clicking Username, Email, Password.
+
+-> After that they can see the Message of User Successfully Registered and then they can login by clicking Login button.
+-> If users try to register with the same email id then they can see the alert Message like "Email already exist! Please login OR register with another mail".
+
+
+4. Home Page - After Successfully Logined then Users can see the Home page.In home page there are 3 Menus. Left Menu,Main Menu and Right Menu
+
+-----> Main Menu
+
+-> Different songs are diplayed on home page and they can play and pause the songs.
+-> Users Can search the songs.
+-> Users can like the songs.
+
+-----> Left Menu
+
+-> In left menu, by clicking Artist button they can see different artist and also then can search sepacific artist.
+-> Then they can see the songs of specific artist by clicking.
+
+-----> Right Menu
+
+-> In right side,Logout button is there and users can logout their profile.
+
+
+
+===> Technologies Which are used In MusicMingle <===
+
+---> Frontend :-
+
+1. aos
+2. bootstrap
+3. react-icons
+4. CSS
+
+---> Back-end :-
+
+1. Firebase
+2. MongoDB
+
+===> Libraries which are used in MusicMingle <===
+
+1. axios
+2. mongoose
+3. nodemon
+4. express
+5. cors
